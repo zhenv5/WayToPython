@@ -160,10 +160,12 @@ a.sort(cmp, key, reverse)
 * 传入参数key 比参数cmp效率高。key中可以用匿名函数lambda来定义
 
 
+#### 二维数组的创建
 
-
-
-
+```Python
+my_array = [[0]*3 for _ in range(4)]
+```
+创建4行3列的二维数组。
 
 
 
