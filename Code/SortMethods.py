@@ -10,11 +10,6 @@ def insert_sort(lists):
     # lists is a mutable variable, has been changed
     return lists
 
-
-
-
-
-
 def quicksort(array):
     """
     quick sort with Python
