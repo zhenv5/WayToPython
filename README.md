@@ -224,6 +224,7 @@ Python中没有访问控制的关键字，例如private,protect等，但有一�
 
 * [Python中的类（上）](http://www.cnblogs.com/wilber2013/p/4677412.html)
 * [Python中的类（下）](http://www.cnblogs.com/wilber2013/p/4690681.html)
+* [Code Demo](https://github.com/zhenv5/WayToPython/blob/master/Code/classDemo.py)
  
 
 
