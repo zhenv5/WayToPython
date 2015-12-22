@@ -7,8 +7,8 @@ punctuation characters in the C locale.
 
 '''
 import string
-delset = string.punctuation
-
+delset = string.punctuation 
+print delset
 '''
 
 string.translate(s, table[, deletechars])
@@ -31,3 +31,21 @@ l = l.lower()
 word_list = l.split()
 
 print word_list
+
+#delete punctuation and digits.
+delset2 = delset + string.digits
+print delset
+
+line = "Hell2o, 1Word, This is 3 Python! (-)"
+print line
+
+l1 = line.translate(None,delset)
+print l1
+# Hell2o 1Word This is 3 Python 
+
+print line
+
+l2 = line.translate(None, delset2)
+print l2
+# Hello Word This is  Python 
+
