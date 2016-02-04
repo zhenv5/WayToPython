@@ -66,4 +66,4 @@ def evaluate_model(model,test_vec,test_label):
 	print model
 	print 'Classification Report'
 	print classification_report(test_label,predict_test)
-	return [i for i in range(len(test_label)) if test_label[i] != predict_test[i]]
+	print [i for i in range(len(test_label)) if test_label[i] != predict_test[i]]
