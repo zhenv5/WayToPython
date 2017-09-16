@@ -88,4 +88,4 @@ docs/_build/
 target/
 
 # other files
-
+.DS_Store
